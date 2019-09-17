@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5dfd0f0a-ecc0-4420-bff6-23c5d8b4e0b5/deploy-status)](https://app.netlify.com/sites/classicmatsuo-react-search/deploys)
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
