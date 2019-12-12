@@ -4,10 +4,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ![reactsearch](https://raw.githubusercontent.com/classicmatsuo/ReactSearch/master/reactsearch.png)
 
-This React Search App was designed for [The Old Town School of Folk Music](https://oldtownschool.org/search/). Before the page was a PHP form, which would take a minute to submit the query and would sometimes return no results. In this version, starting on the left and working down and then to the right and down, each input field will update depending on your previous answer. Try it out locally or click on the netlify link above.
+This React Search App was designed for [The Old Town School of Folk Music](https://oldtownschool.org/search/). Before the page was a PHP form, which would take a minute to submit the query and would sometimes return no results. In this version, starting on the left and working down and then to the right and down, each input field will update depending on your previous answer. Try it out locally, click on the link above to see it in production, or click on the netlify badge at the top and follow the link on the page.
 
 ### Local dev
 ```
-npm i or yarn
+npm i
 npm start
 ```
