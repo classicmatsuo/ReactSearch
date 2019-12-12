@@ -1,0 +1,10 @@
+.greyBorder {
+  border: #e7e7e7 solid 1px;
+  border-radius: 1em;
+  padding: 1em;
+  margin: 0 0 1em;
+}
+
+.greyBorder a {
+  pointer-events: none;
+}
