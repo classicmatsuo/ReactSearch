@@ -36,7 +36,7 @@ class CourseRow extends React.Component {
       <div className="greyBorder row content">
         <div className="content">
           <div>
-            <h4 className="courseTitle"><a className="DEFAULT" href={"/classes/detail/?courseid=" + courseId} target="_blank"><span dangerouslySetInnerHTML={{__html:name}}></span></a>
+            <h4 className="courseTitle"><a className="DEFAULT" href={"/classes/detail/?courseid=" + courseId} target="_blank" rel="noopener noreferrer"><span dangerouslySetInnerHTML={{__html:name}}></span></a>
             </h4>
             <div className="flagContainer">
               <span className="courseFlag head DEFAULT">{courseProgram}</span>
@@ -48,7 +48,7 @@ class CourseRow extends React.Component {
               {timeShow}
               {courseDescription ? <p><span dangerouslySetInnerHTML={{__html:courseDescription}}></span></p> : null}
             <div className="last action">
-              <a className="btn btn-lrg courselink action" href={"/classes/detail/?courseid=" + courseId} target="_blank">Schedules &amp; Registration</a>
+              <a className="btn btn-lrg courselink action" href={"/classes/detail/?courseid=" + courseId} target="_blank" rel="noopener noreferrer">Schedules &amp; Registration</a>
             </div>
           </div>
         </div>
